@@ -2,7 +2,7 @@ name: Continuous Integration self hosted
 
 on:
   schedule:
-    - cron: '*/1 * * * *' # Run every minute
+  #   - cron: '*/1 * * * *' # Run every minute
 
 jobs:
   build:
